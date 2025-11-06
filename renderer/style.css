@@ -1,0 +1,65 @@
+/* renderer/style.css */
+* {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  color: #eee;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 320px;
+}
+
+#display {
+  background: #222;
+  padding: 24px;
+  text-align: right;
+  font-size: 36px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.keys {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #333;
+  color: #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.15);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button[data-action="op"],
+button[data-action="equals"] {
+  background: #495;
+}
+
+button[data-action="clear"] {
+  background: #944;
+}
+
+.span-2 {
+  grid-column: span 2;
+}

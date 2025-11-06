@@ -1,0 +1,43 @@
+<!-- renderer/index.html -->
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalkulator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app">
+    <div id="display">0</div>
+
+    <div class="keys">
+      <button data-action="clear" class="span-2">AC</button>
+      <button data-action="percent">%</button>
+      <button data-action="op" data-op="÷">÷</button>
+
+      <button data-action="num">7</button>
+      <button data-action="num">8</button>
+      <button data-action="num">9</button>
+      <button data-action="op" data-op="×">×</button>
+
+      <button data-action="num">4</button>
+      <button data-action="num">5</button>
+      <button data-action="num">6</button>
+      <button data-action="op" data-op="-">-</button>
+
+      <button data-action="num">1</button>
+      <button data-action="num">2</button>
+      <button data-action="num">3</button>
+      <button data-action="op" data-op="+">+</button>
+
+      <button data-action="num" class="span-2">0</button>
+      <button data-action="dot">.</button>
+      <button data-action="equals">=</button>
+    </div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+</html>
