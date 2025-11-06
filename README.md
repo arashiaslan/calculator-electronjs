@@ -31,5 +31,5 @@ Supports basic arithmetic operations with a clean UI — runs on Windows, macOS,
 To create an installable desktop app:
    ```bash
    npm run build
-
+   ```
 ## Created with ❤️ using Electron.js.
