@@ -29,8 +29,7 @@ Supports basic arithmetic operations with a clean UI — runs on Windows, macOS,
 
 ## 🏗️ Build for Production
 To create an installable desktop app:
-
-```bash
-npm run build
+   ```bash
+   npm run build
 
 ## Created with ❤️ using Electron.js.
